@@ -1,0 +1,128 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        Search Your College
+    </title>
+</head>
+<style>
+    body {
+        background: url("ab.jpg");
+        background-size: 1400px 900px;
+        background-repeat: no-repeat;
+        font-size: 25px;
+    }
+    
+    input[type=text] {
+        width: 330px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        opacity: 30;
+        padding: 12px 20px 12px 40px;
+    }
+    
+    input[type=text]:focus {
+        width: 100%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .icon-bar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+    }
+    
+    .icon-bar a {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 12px 0;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 36px;
+    }
+    
+    .icon-bar a:hover {
+        background-color: #000;
+    }
+    
+    .active {
+        background-color: skyblue;
+    }
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: lightblue;color:white;opacity: 0.3;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+<body background="ab.jpg">
+ <marquee direction="left" height="5%" bgcolor="sky blue" vspace="10">Welcome to your college search site.</marquee>
+    <div class="icon-bar">
+        <a class="active" href="home_.html"><i class="fa fa-home"><br>Home</i></a>
+        <a href="course.html"><i class="fa fa-book"><br>Courses</i></a>
+        <a class="active" href="college.html"><i class="fa fa-bank"><br>Colleges</i></a>
+        <a href="login.html"><i class="fa fa-lock"><br>Login</i></a>
+        <a class="active" href="feedback.html"><i class="fa fa-bars"><br>Feedback</i></a>
+    </div>
+    <br>
+ <div class="flex-container">
+<header>
+  <h1 style="color: red; opacity: 15">Regional Colleges</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="maha.html">Maharashtra</a></li>
+  <li><a href="odi.html">Odisha</a></li>
+  <li><a href="west.html">West Bengal</a></li>
+</ul>
+</nav>
+<article class="article">
+    <p>
+        This page will provide information about the regional colleges in different states.
+    </p>
+</article>
+<footer>Copyright &copy; CollegeSearch.com</footer>
+
+ </div> 
+</body>
+</html>
+   

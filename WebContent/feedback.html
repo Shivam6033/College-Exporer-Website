@@ -1,0 +1,101 @@
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        FEEDBACK FORM
+    </title>
+    <style>
+        body {
+            background: url("Teenage Choices.jpg");
+            background-size: 1500px 800px;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+    
+    .icon-bar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+    }
+    
+    .icon-bar a {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 12px 0;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 36px;
+    }
+    
+    .icon-bar a:hover {
+        background-color: #000;
+    }
+    
+    .active {
+        background-color: skyblue;
+    }
+</style>
+<body>
+     <div class="icon-bar">
+        <a class="active" href="home_.html"><i class="fa fa-home"><br>Home</i></a>
+        <a href="course.html"><i class="fa fa-book"><br>Courses</i></a>
+        <a class="active" href="college.html"><i class="fa fa-bank"><br>Colleges</i></a>
+        <a href="login.html"><i class="fa fa-lock"><br>Login</i></a>
+        <a class="active" href="feedback.html"><i class="fa fa-bars"><br>Feedback</i></a>
+    </div>
+    <font color="white">
+        <h1>Feedback Form</h1>
+        <b>
+    <form method="get" action="1.php" name="myForm">
+        <fieldset>
+            <legend>Feedback</legend>
+            <table cellpadding="5"><b>
+                <tr>
+                    <td> Enter Username</td>
+                    <td><input type="text" name="Username" placeholder="Username"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>The things you liked:</td>
+                    <td>Information<input type="checkbox" name="check2" /> Content and Display<input type="checkbox" name="check3" /></td>
+                </tr>
+                <tr>
+                     <td> How did you get to our site?</td>
+                    <td>Advertisements <input type="radio" name="radio1" />Search Engine<input type="radio" name="radio1" />Others<input type="radio" name="radio1" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name=t1 id="myEmail" size=20 maxsize=50 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></td>
+                       </td>
+                    <tr>
+                        <td>Comments</td>
+                        <td><textarea rows="4" cols="15"></textarea>
+                        </td>
+                    </tr>
+                    <tr align=right>
+                        <td align=right> <input type="submit" name="submit" value="submit" onclick="myFunction()"></td>
+                        <td align=left><input type="reset" name="reset" value="reset"></td>
+                    </tr>
+	</b>
+        </table>
+        </fieldset>
+        </form>
+        </b>
+    </font>
+   
+</body>
+</html>
